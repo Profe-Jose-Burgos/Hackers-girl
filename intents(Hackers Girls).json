@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["good morning","good afternoon","Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hi how are things!","Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?","My name is, how can we serve you?","good morning","good afternoon"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon", "Thanks for choosing us"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","It was a pleasure to help you"]
+        },
+        {"tag": "hours",
+         "patterns": ["What time are the offices open?","What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["Our offices are open from 8am-6pm","We're open every day 8am-6pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 8am-6pm", "Our hours are 8am-6pm every day"]
+        },
+        {"tag": "location",
+         "patterns": ["Where are you located?", "What would be the route to get there?","How can i get to"],
+         "responses": ["In our profile info there is the locations of the hotels"]
+        },
+        {"tag": "hotel options",
+         "patterns": ["What hotels are available?"],
+         "responses": ["Decameron", "Playa Bonita", "Playa Blanca"]
+        },
+        {"tag": "transportation",
+         "patterns": ["Do you have transport service?"],
+         "responses": ["Indeed, we have cars and buses"]
+        },
+        {"tag": "transportation 2.0",
+         "patterns": ["What is the passenger capacity to travel?"],
+         "responses": ["Cars up to 4 passengers and buses up to 16 passengers"]
+        }
+   ]
+}
