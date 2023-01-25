@@ -1,0 +1,52 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["good morning","good afternoon","Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hi how are things!","Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?" ,"good morning","good afternoon"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon", "Thanks for choosing us"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","It was a pleasure to help you"]
+        },
+        {"tag": "hours",
+         "patterns": ["3","What time are the offices open?","What hours are you open?", "What are your hours?", "When are you open?","Are you open today?","When do you open today?","What are your hours today?"],
+         "responses": ["Our offices are open from 8am-6pm","We're open every day 8am-6pm", "Our hours are 9am-9pm every day","We're open every day from 8am-6pm","Our hours are 8am-6pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["6","Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "location",
+         "patterns": ["4","Where are you located?", "What would be the route to get there?","How can i get to"],
+         "responses": ["In our profile info there is the locations of the hotels"]
+        },
+        {"tag": "hotel options",
+         "patterns": ["1", "a","A","B","b","C","c","What hotels are available?"],
+         "responses": ["\n A. Decameron. \n B. Playa Bonita. \n C. Playa Blanca. \n *For more information choose one of the options*"]
+        },
+        {"tag": "transportation",
+         "patterns": ["2","Do you have transport service?", "What is the passenger capacity to travel?"],
+         "responses": ["Indeed, we have cars and buses", "Cars up to 4 passengers and buses up to 16 passengers"]
+        },
+        {"tag": "Decameron",
+         "patterns": ["Royal Decameron", "Decameron", "A"],
+         "responses": ["How many nights would you stay and how many people would the reservation be for?"]
+        },
+        {"tag": " Decameron packets",
+         "patterns": [" 4 people and 3 night","2 people 4 night", "2 people and 1 night"],
+         "responses": ["all-inclusive package for four adults four days and three nights with a price of 1,134.00","all-inclusive package for two adults five days and four nights with a price of 908.00"]    
+        },
+        {"tag": "Paya Bonita packets",
+         "patterns": ["what kinds of rooms do you have?"],
+         "responses":["A double room for four adults or two adults and two children for four days and three nights 477.00", "A room for two people for five days and four nights 396.00", "One day pass for two people two days one night 99.00"]
+        },
+        {"tag": "Playa  Blanca packets",
+         "patterns": ["what rooms do you offer?"],
+         "responses": ["A double room for four people all included equal 1,345.00 for 4 days three nights", "A room for two adults for four nights and five days all inclusive 900.00", "One day pass of 2 days one night for two people 192.00"]
+        }
+     ]
+}
